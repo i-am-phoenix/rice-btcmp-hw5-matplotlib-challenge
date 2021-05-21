@@ -56,3 +56,15 @@ Input data consists of two *.csv files containing related data for the study:
   * `Tumor Volume (mm3)`	column contains recorded tumor volumes (data type - float)	
   * `Metastatic Sites`	column contains metastatic site count (data type - integer)
 
+### Observations:
+
+1. A total of 10 drugs were tested on 249 mice with an almost equal split in gender as shown in the below pie chart:
+   <img src="figures\mice_gender_pie.png" style="zoom:100%;" align="center"/>
+2. Among the four top drugs tested, only Infubinol was shown to contain outliers (one), as shown in the figure below.
+   <img src="figures\drug_vs_vol_boxplot.png" style="zoom:100%;" align="center"/>
+   Here, we can see that Infubinol & Ceftamin consistently outperform the Capamulin & Remicane.
+3. As we have been asked to review performance of Capomulin drug in particular, a positive trend in the reduction of tumor volume with time could be clearly observed using the Mouse ID r554 test results:
+   <img src="figures\timepoint_vs_vol_for_mouse_id_r554.png" style="zoom:100%;" align="center"/>
+4. Average tumor volume shows strong positive correlation with mice weight, with correlation coefficient ~ 0.93
+   <img src="figures\weight_vs_vol_scatter_w_fit.png" style="zoom:100%;" align="center"/>
+
