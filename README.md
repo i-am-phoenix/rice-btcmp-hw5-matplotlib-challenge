@@ -42,14 +42,14 @@ And as a final considerations - proper labeling of the plots has to be used, inc
 Input data consists of two *.csv files containing related data for the study:
 
 * [Mouse_metadata.csv](data/Mouse_metadata.csv) with the following information and data types:<br>
-  <img src="figures\mouse_metadata.PNG" style="zoom:100%;" align="center"/><br>with the following data:
+  <img src="figures\mouse_metadata.PNG" style="zoom:130%;" align="center"/><br>with the following data:
   * `Mouse ID`	column contains individual IDs for each mouse (data type - string)	
   * `Drug Regimen`	column contains names of the drugs tested (data type - string)
   * `Sex`	column contains mice gender (data type - string)	
   * `Age_months`	column contains mice age (data type - integer)
   * `Weight (g)`	column contains mice weight in grams (data type - float)
 * [Study_results.csv](data/Study_results.csv) with the following information and data types:<br>
-  <img src="figures\study_results.PNG" style="zoom:100%;" align="center"/><br>with the following data:
+  <img src="figures\study_results.PNG" style="zoom:130%;" align="center"/><br>with the following data:
   * `Mouse ID`	column contains individual IDs for each mouse (data type - string)	
   * `Timepoint`	column contains time reference for the measurements being taken  (data type - integer)
   * `Tumor Volume (mm3)`	column contains recorded tumor volumes (data type - float)	
