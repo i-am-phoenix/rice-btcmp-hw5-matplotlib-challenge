@@ -41,5 +41,5 @@ And as a final considerations - proper labeling of the plots has to be used, inc
 
 Input data consists of two *.csv files containing related data for the study:
 
-* [data/Mouse_metadata.csv](data/data/Mouse_metadata.csv) with the following 
+* [Mouse_metadata.csv](data/Mouse_metadata.csv) with the following 
 
